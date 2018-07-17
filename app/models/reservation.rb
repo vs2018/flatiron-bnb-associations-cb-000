@@ -3,7 +3,5 @@ class Reservation < ActiveRecord::Base
   belongs_to :listing
   has_many :reviews
   
-  def checkin
-    Date.parse(:checkin)
-  end
+  
 end
