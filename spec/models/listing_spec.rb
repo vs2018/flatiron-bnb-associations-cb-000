@@ -29,9 +29,9 @@ describe Listing do
     expect(listing.address).to eq('123 Main Street')
   end
 
-  it 'has a listing type' do
-    expect(listing.listing_type).to eq("private room")
-  end
+  # it 'has a listing type' do
+  #   expect(listing.listing_type).to eq("private room")
+  # end
 
   it 'has a price' do
     expect(listing.price).to eq(50.00)
