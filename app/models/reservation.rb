@@ -4,5 +4,6 @@ class Reservation < ActiveRecord::Base
   has_many :reviews
   
   def checkin
+    Date.parse(:checkin)
   end
 end
