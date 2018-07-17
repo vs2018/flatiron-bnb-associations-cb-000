@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20180717112537) do
 
   create_table "listings", force: :cascade do |t|
     t.string   "title"
+    t.string   "listing_type"
     t.string   "description"
     t.string   "address"
     t.float    "price"
