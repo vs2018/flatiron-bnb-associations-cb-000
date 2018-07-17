@@ -17,7 +17,7 @@ describe Neighborhood do
     let!(:listing) do
       Listing.create(
         address: '44 Ridge Lane',
-        listing_type: "whole house",
+        # listing_type: "whole house",
         title: "Beautiful Home on Mountain",
         description: "Whole house for rent on mountain. Many bedrooms.",
         price: 200.00,
